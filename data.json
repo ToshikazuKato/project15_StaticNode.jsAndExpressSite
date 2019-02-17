@@ -1,0 +1,49 @@
+{
+  "projects" : [
+    {
+      "id" : 0,
+      "project_name" : "A Random Quote Generator",
+      "description" : "It displays a random famous quote(actually song) each time a button is clicked.",
+      "technologies" : ["HTML", "CSS", "JavaScript"],
+      "live_link" : "https://toshikazukato.github.io/Project10_ARandomQuoteGenerator/",
+      "github_link" : "https://github.com/ToshikazuKato/Project10_ARandomQuoteGenerator",
+      "images_urls" : ["/static/images/ARandomQuoteGenerator1.png", "/static/images/ARandomQuoteGenerator2.png", "/static/images/ARandomQuoteGenerator3.png"]
+    },
+    {
+      "id" : 1,
+      "project_name" : "List Pagination And Filtering",
+      "description" : "A list of students, which automatically gets divided into seperate pages, with a search function.",
+      "technologies" : ["HTML", "CSS", "JavaScript"],
+      "live_link" : "https://toshikazukato.github.io/Project11_ListPaginationAndFiltering/",
+      "github_link" : "https://github.com/ToshikazuKato/Project11_ListPaginationAndFiltering",
+      "images_urls" : ["/static/images/ListPaginationAndFiltering1.png", "/static/images/ListPaginationAndFiltering2.png"]
+    },
+    {
+      "id" : 2,
+      "project_name" : "Interactive Form",
+      "description" : "An Interactive Form that provides helpful error messages, validation for incorrect user inputs and conditional behavior.",
+      "technologies" : ["HTML", "CSS", "JavaScript"],
+      "live_link" : "https://toshikazukato.github.io/Project12_InteractiveForm/",
+      "github_link" : "https://github.com/ToshikazuKato/Project12_InteractiveForm",
+      "images_urls" : ["/static/images/InteractiveForm1.png", "/static/images/InteractiveForm2.png", "/static/images/InteractiveForm3.png"]
+    },
+    {
+      "id" : 3,
+      "project_name" : "OOP Game Show App",
+      "description" : "A browser-based, word guessing game by using Object-Oriented JavaScript.",
+      "technologies" : ["HTML", "CSS", "JavaScript", "Object Oriented"],
+      "live_link" : "https://toshikazukato.github.io/Project13_OOPGameShowApp/",
+      "github_link" : "https://github.com/ToshikazuKato/Project13_OOPGameShowApp",
+      "images_urls" : ["/static/images/OOPGameShowApp1.png", "/static/images/OOPGameShowApp2.png", "/static/images/OOPGameShowApp3.png"]
+    },
+    {
+      "id" : 4,
+      "project_name" : "Public API Request",
+      "description" : "A Employee Directory which fetches data from a third party API with modal function",
+      "technologies" : ["HTML", "CSS", "JavaScript", "API"],
+      "live_link" : "https://toshikazukato.github.io/Project14_PublicAPIRequest/",
+      "github_link" : "https://github.com/ToshikazuKato/Project14_PublicAPIRequest",
+      "images_urls" : ["/static/images/employee_directory.png", "/static/images/employee_overlay.png"]
+    }
+  ]
+}

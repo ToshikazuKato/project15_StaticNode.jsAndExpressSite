@@ -957,7 +957,10 @@ textarea {
   .grid-margin-x.large-up-2 > .cell {
     width: calc(50% - 1.875rem); }
   .grid-margin-x.large-up-3 > .cell {
-    width: calc(33.33333% - 1.875rem); }
+    /* width: calc(33.33333% - 1.875rem); */
+    /* width: 550px; */
+    /* height: 550px; */
+    }
   .grid-margin-x.large-up-4 > .cell {
     width: calc(25% - 1.875rem); }
   .grid-margin-x.large-up-5 > .cell {
