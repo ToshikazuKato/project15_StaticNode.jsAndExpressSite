@@ -26,6 +26,19 @@ app.get('/about', (req, res, next) => {
   res.render('about');
 });
 
+//error handling
+app.use(function(req,res,next){
+  const err = new Error("Oops, there's an error!");
+  err.status = 404;
+  next(err);
+});
+
+app.use(function(err, req, res, next){
+  res.locals.error = err;
+  res.status(err.status);
+  res.render('error');
+});
+
 
 //server start, app listens on PORT 3000
 app.listen(3000, () => {
