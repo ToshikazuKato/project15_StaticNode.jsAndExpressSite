@@ -4,7 +4,6 @@ block content
   article.grid-container.portfolio-intro
     div
 
-      //- Add a title or heading like My Portfolio, or Hey, Potential Employers, or Let's make the web great together!
       h1 My Portfolio
 
       //- Add a description for your portfolio, what this project is, it's purpose, what it's suppossed to accomplish, etc.
@@ -17,5 +16,5 @@ block content
       each prj in projects
         .cell
           a(href=`${prj.live_link}` target="_blank")
-            img.thumbnail(src=`${prj.images_urls[0]}` style="width: 550px; height: 550px;")
+            img.thumbnail(src=`${prj.images_urls[0]}`)
             h5 #{prj.project_name}
