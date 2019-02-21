@@ -29,7 +29,7 @@ app.get('/about', (req, res, next) => {
 
 //error handling
 app.use(function(req,res,next){
-  const err = new Error("Oops, there's an error!");
+  const err = new Error("You got lost but it serves you right!");
   err.status = 404;
   next(err);
 });
