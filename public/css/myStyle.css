@@ -1,0 +1,38 @@
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.thumbnail{
+    transition: all 0.3s ease;
+}
+
+.thumbnail:hover{
+    box-shadow: 0 0 3px 1px #101ff1;
+}
+
+.button{
+    transition: all 0.3s linear;
+}
+
+.button:hover{
+    color:  #1424ff;
+}
+
+.portfolio-me a:hover{
+    color:  #1424ff;
+}
+
+.shrink .thumbnail{
+    filter: grayscale(50%) blur(1px);
+    transition: all 0.3s ease;
+}
+
+.shrink .thumbnail:hover{
+    filter:grayscale(0%) blur(0px);
+    transform: rotate(2deg);
+}
+
+.off-canvas-content{
+    background-color: #f7f7f7;
+}
