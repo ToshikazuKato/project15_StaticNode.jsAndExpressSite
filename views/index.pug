@@ -14,6 +14,6 @@ block content
 
       each prj in projects
         .cell
-          a(href=`${prj.live_link}` target="_blank")
+          a(href=`/projects/${prj.id}` target="_blank")
             img.thumbnail(src=`${prj.images_urls[0]}`)
             h5 #{prj.project_name}
