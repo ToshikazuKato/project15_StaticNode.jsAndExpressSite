@@ -23,6 +23,6 @@
     "cookie-parser": "^1.4.4",
     "express": "^4.16.4",
     "lodash.update": "^4.10.2",
-    "pug": "^2.0.3"
+    "pug": "^3.0.1"
   }
 }
