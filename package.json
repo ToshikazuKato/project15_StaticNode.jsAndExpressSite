@@ -19,9 +19,9 @@
   },
   "homepage": "https://github.com/ToshikazuKato/project15_StaticNode.jsAndExpressSite#readme",
   "dependencies": {
-    "body-parser": "^1.18.3",
+    "body-parser": "^1.20.1",
     "cookie-parser": "^1.4.4",
-    "express": "^4.16.4",
+    "express": "^4.18.2",
     "lodash.update": "^4.10.2",
     "pug": "^2.0.3"
   }
